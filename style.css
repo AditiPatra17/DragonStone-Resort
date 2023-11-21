@@ -1,0 +1,134 @@
+.header {
+    background-color: rgb(123, 71, 23);
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 10px;
+}
+
+.itemshead {
+    background-color: rgb(251, 227, 174);
+    padding: 5px;
+}
+
+.buttons {
+    color: black;
+    background-color: rgb(179, 154, 65);
+    display: inline-block;
+    font-size: small;
+    align-items: center;
+    width: 100%;
+}
+
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(116, 96, 24);
+}
+
+.title1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    padding: 15px;
+}
+
+.subtext {
+    color: black;
+    text-align: center;
+    font-size: medium;
+    padding: 15px;
+}
+
+.bg {
+    background-color: rgb(251, 227, 174);
+}
+
+.text1 {
+    text-align: center;
+}
+
+.bgimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.footer {
+    color: rgb(74, 74, 74);
+    font-size: medium;
+    font-weight: 400;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(195, 195, 195);
+}
+
+.pre {
+    background-color: transparent;
+    border: 0;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+}
+
+.mediaimg {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formtext {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.inpbox {
+    background-color: transparent;
+
+}
+
+.submit {
+    background-color: bisque;
+}
+
+.submit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(252, 206, 150);
+}
+
+.disc {
+    font-size: medium;
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ind {
+    text-indent: 100px;
+}
+
+.vid {
+    display: block;
+    height: 300px;
+    width: 320px;
+    margin-right: 5px;
+}
+
+.img {
+    display: block;
+    width: 300px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

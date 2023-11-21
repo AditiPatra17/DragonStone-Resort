@@ -1,0 +1,248 @@
+<html>
+
+<head>
+    <title>Facilities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    .hide {
+        display: block;
+    }
+    .btn{
+        font-style:italic;
+    }
+    .button{
+        border: none; 
+        margin:0; 
+        padding: 0; 
+        background:transparent;
+        color: darkblue;
+    }
+</style>
+
+<script>
+    $(document).ready(function(){
+        $("img").css({display: "none"});
+        $("video").css({display: "none"});
+        $("#hfac").click(function(){
+            $("#hotelfac").toggle();
+        });
+        $("#guestser").click(function(){
+            $("#gserv").toggle();
+        });
+        $("#spa").click(function(){
+            $("#spaimg").toggle();
+        });
+        $("#bar").click(function(){
+            $("#barimg").toggle();
+        });
+        $("#boat").click(function(){
+            $("#boatimg").toggle();
+        });
+        $("#pooltable").click(function(){
+            $("#pooltablev").toggle();
+        });
+        $("#tabletennis").click(function(){
+            $("#tabletennisv").toggle();
+        });
+        $("#pool").click(function(){
+            $("#poolv").toggle();
+        });
+        $("#horse").click(function(){
+            $("#horseimg").toggle();
+        });
+        $("#playarea").click(function(){
+            $("#playareav").toggle();
+        });
+        $("#star").click(function(){
+            $("#starimg").toggle();
+        });
+        $("#fire").click(function(){
+            $("#fireimg").toggle();
+        });
+    })
+</script>
+
+<body class="bg"><br>
+    <div class="col-md-12 header">DragonStone Resort</div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'main.html'">Home</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'login.html'">Login</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'signup.html'">Sign Up</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'book.html'">New Booking</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'manage.html'">Manage Booking</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'loyalty.html'">Loyalty Program</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'facilities.html'">Facilities</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'customercare.html'">Customer Care</button></div>
+
+    <center>
+        <div class="col-md-12">
+            <video class="show" width="500" height="300" loop autoplay muted>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </center>
+    <div class="col-md-12"><br></div>
+    
+    <div class="col-md-6">
+        <button class="button" id="hfac"><h3 style="margin-left: 22px;"><u>Hotel Facilities</u></h3></button>
+        <ul>
+            <button class="button" id="spa"><li><span class="button btn">Spa</span></li></button>
+            <li>Semi open &amp; outdoor restaurant</li>
+            <button class="button" id="bar"><li><span class="button btn">Poolside bar</span></li></button>
+            <li>Car parking</li>
+            <li>Public computer</li>
+            <li>Disable rooms &amp; Interconnecting rooms</li>
+            <li>24 Hour security</li>
+            <li>Outside catering service</li>
+            <li>100 Seating capacity restaurant</li>
+            <li>150 Capacity outdoor terrace</li>
+            <li>45 Seating conference room</li>
+            <li>35 Seating private air-conditioning dining room</li>
+            <li>Water purification system</li>
+            <button class="button" id="boat"><li><span class="button btn">Sunset boat trip</li></span></button>
+            <li>Gift shop</li>
+        </ul>
+    </div>
+
+    <div class="col-md-6">
+        <br><br>
+        <ul type="none">
+            <li><img id="hotelfac" src="hotelfacilities.jpg" width="75%"></li>
+        </ul>
+    </div>
+    
+    <div class="col-md-12">
+        <div class="col-md-4">
+            <img class="img" id="spaimg" src="spa.jpg">
+        </div>
+    
+        <div class="col-md-4">
+            <img class="img" id="barimg" src="bar.jpg">
+        </div>
+    
+        <div class="col-md-4">
+            <img class="img" id="boatimg" src="boat.jpg">
+        </div>
+    </div>
+    
+
+    <div class="col-md-6">
+        <button class="button" id="guestser"><h3 style="margin-left: 22px;"><u>Guest Service</u></h3></button>
+        <ul>
+            <li>24-Hour room service</li>
+            <li>Free wireless internet access</li>
+            <li>Complimentary use of hotel bicycle</li>
+            <li>Laundry service</li>
+            <li>24 Hour concierge</li>
+            <li>Meeting facilities</li>
+            <li>Airport transfers</li>
+            <li>Babysitting on request</li>
+            <li>24-Hour doctor on call</li>
+        </ul>
+    </div>
+    
+    <div class="col-md-6">
+        <ul type="none">
+            <li><img id="gserv" src="guestservice.webp" width="75%"></li>
+        </ul>
+    </div>
+
+    </div>
+    
+    <div class="col-md-12"><br></div>
+    
+    <div class="col-md-12"><br>
+        <div class="col-md-4"><h3 style="text-align: center;"><u>Leisure</u></h3></div>
+
+    <div class="col-md-4">
+        <ul>
+            <button class="button" id="pooltable"><li><span class="button btn">Pool table</li></button><br>
+            <button class="button" id="tabletennis"><li><span class="button btn">Table tennis</span></li></button>
+            <li>Sports ground</li>
+            <button class="button" id="pool"><li><span class="button btn">Swimming pool </span></li></button><br>
+            <button class="button" id="horse"><li><span class="button btn">Horse riding </span></li></button>
+            <li>E-Bike &amp; horse cart rental</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <ul>
+        <li>Tours & excursions</li>
+        <button class="button" id="playarea"><li><span class="button btn">Kids play area</span></li></button><br>
+        <button class="button" id="star"><li><span class="button btn">Night star gazing</span></li></button>
+        <li>E-Bike rental</li>
+        <button class="button" id="fire"><li><span class="button btn">Bonfire</span></li></button>
+        <li>Tour &amp; excursions</li>
+        </ul>
+    </div>
+    </div>
+    <div class="col-md-3">
+        <video class="vid" id="poolv" loop autoplay muted>
+            <source src="pool.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="col-md-3">
+        <video class="vid" id="pooltablev" loop autoplay muted>
+            <source src="pooltable.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="col-md-3">
+        <video class="vid" id="playareav" loop autoplay muted>
+            <source src="playarea.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="col-md-3">
+        <video class="vid" id="tabletennisv" loop autoplay muted>
+            <source src="tabletennis.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="col-md-12">
+    <div class="col-md-4">
+        <img class="img" id="horseimg" src="horse.jpg">
+    </div>
+    
+    <div class="col-md-4">
+        <img class="img" id="starimg" src="star.webp">
+    </div>
+
+    <div class="col-md-4">
+        <img class="img" id="fireimg" src="fire.jpg">
+    </div>
+    </div>
+
+    <div class="col-md-12 footer">
+        <table>
+            <tr>
+                <td>
+                    <pre class="pre">
+    Address:    Apollo Bandar, Colaba, Mumbai, Maharashtra 400001
+    
+    Telephone:  022-66653366
+    
+    Email:      dragonstoneresort@gmail.com
+            </pre>
+                </td>
+                <td><a href="https://www.instagram.com/" target="_blank"><img src="ig.png" class="footer mediaimg"></a>
+                </td>
+                <td><a href="https://www.facebook.com/" target="_blank"><img src="fb.png" class="footer mediaimg"></a>
+                </td>
+                <td><a href="https://twitter.com/" target="_blank"><img src="twitter.png" class="footer mediaimg"></a>
+                </td>
+                <td><a href="https://www.trivago.in/" target="_blank"><img src="tripadv.png"
+                            class="footer mediaimg"></a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

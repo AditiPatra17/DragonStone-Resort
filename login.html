@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Login</title>
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    function send(){
+        var inp = document.getElementById("liloginid").value;
+        if(inp == "anshpethani@gmail.com")
+            liloginid.validity() == TRUE;
+        else
+        alert(inp + " is not registered! Please create new account.");
+    }
+</script>
+
+<body class="bg"><br>
+    <div class="col-md-12 header">DragonStone Resort</div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'main.html'">Home</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'login.html'">Login</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'signup.html'">Sign Up</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'book.html'">New Booking</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'manage.html'">Manage Booking</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'loyalty.html'">Loyalty Program</button></div>
+    <div class="col-md-1 itemshead"><button class="buttons" onclick="window.location.href = 'facilities.html'">Facilities</button></div>
+    <div class="col-md-2 itemshead"><button class="buttons" onclick="window.location.href = 'customercare.html'">Customer Care</button></div>
+
+    <div class="col-md-12"><br></div>
+    <h3 class="text1">Log In</h3>
+
+    <form class="formtext" validate>
+        <center>
+        <table>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td>Email Id:</td><td>&nbsp;&nbsp;<input type="email" id="liloginid" class="inpbox" required></td></tr>
+            <tr><td>&nbsp;</td></tr>
+            <tr><td>Password:</td><td>&nbsp;&nbsp;<input type="password" id="lipassword" class="inpbox" required></td></tr>
+        </table><br>
+        <button type="submit" onclick="send()" class="submit">Log In</button>
+    </center>
+    </form>
+
+    <div class="col-md-12 footer" style="margin-top: 225px;">
+        <table>
+        <tr>
+        <td>
+            <pre class="pre">
+Address:    Apollo Bandar, Colaba, Mumbai, Maharashtra 400001
+
+Telephone:  022-66653366
+
+Email:      dragonstoneresort@gmail.com
+            </pre>
+        </td>
+            <td><a href="https://www.instagram.com/" target="_blank"><img src="ig.png" class="footer mediaimg"></a></td>
+            <td><a href="https://www.facebook.com/" target="_blank"><img src="fb.png" class="footer mediaimg"></a></td>
+            <td><a href="https://twitter.com/" target="_blank"><img src="twitter.png" class="footer mediaimg"></a></td>
+            <td><a href="https://www.trivago.in/" target="_blank"><img src="tripadv.png" class="footer mediaimg"></a></td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
